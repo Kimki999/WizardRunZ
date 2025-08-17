@@ -1,0 +1,42 @@
+.cat {
+    animation: breakdance 1.5s infinite;
+}
+
+@keyframes breakdance{
+    100%, 0%{
+        filter: drop-shadow(0 4px 10px rgb(255,0,0, 0.75));
+    }
+    8%{
+        filter: drop-shadow(0 4px 5px rgb(255,127,0, 0.75));
+    }
+    16%{
+        filter: drop-shadow(0 4px 5px rgb(255,255,0, 0.75));
+    }
+    25%{
+        filter: drop-shadow(0 4px 5px rgb(127,255,0, 0.75));
+    }
+    33%{
+        filter: drop-shadow(0 4px 5px rgb(0,255,0, 0.75));
+    }
+    41%{
+        filter: drop-shadow(0 4px 5px rgb(0,255,127, 0.75));
+    }
+    50%{
+        filter: drop-shadow(0 4px 5px rgb(0,255,255, 0.75));
+    }
+    58%{
+        filter: drop-shadow(0 4px 5px rgb(0,127,255, 0.75));
+    }
+    66%{
+        filter: drop-shadow(0 4px 5px rgb(0,0,255, 0.75));
+    }
+    75%{
+        filter: drop-shadow(0 4px 5px rgb(127,0,255, 0.75));
+    }
+    83%{
+        filter: drop-shadow(0 4px 5px rgb(255,0,255, 0.75));
+    }
+    91%{
+        filter: drop-shadow(0 4px 5px rgb(255,0,127, 0.75));
+    }
+}

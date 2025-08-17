@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: font;
+    src: url(/font.ttf);
+}
+
+body {
+    height: 100vh;
+    font-family: font;
+    width: 100%;
+    background: rgb(75,0,126);
+    background: linear-gradient(180deg, rgba(75,0,126,1) 0%, rgba(9,0,85,1) 100%);
+}
